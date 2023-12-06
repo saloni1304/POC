@@ -5,7 +5,7 @@ import mutualFunds from '../data/MutualFunds';
 
 const MutualFundList = () => {
   return (
-    <div className=" mx-16 p-4  ">
+    <div className=" p-4  ">
       <h2 className="text-3xl font-bold mb-4">Mutual Fund List</h2>
       {mutualFunds.map((fund) => (
         <div key={fund.id} className="flex justify-between  mb-8 bg-white p-6 rounded-lg shadow-md">
